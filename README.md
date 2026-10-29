@@ -32,9 +32,14 @@ Trusted relationship attacks are difficult to identify because they often occur 
 
 ## Mitigations and Defenses
 
-There are multiple ways to preemptively mitigate and defend against trusted relationship attacks. One way to do this is requiring Multi-Factor Authentication (MFA) for third party organizations. This means necessitating these companies to confirm their identity with more than just their password before accessing sensitive information or high privilege accounts. Another way to mitigate the effects of a trusted relationship attack is through network segmentation, which means isolating different parts of the network from each other. This would make it more difficult for an attacker to move laterally throughout the network once they gain access to the system. An organization could use network segmentation to separate the parts of a network that third party accounts need to access from the rest of the network, preventing these other companies from seeing and accessing sensitive information outside of the scope of their job.
+There are multiple ways to preemptively mitigate and defend against trusted relationship attacks. One way to do this is requiring Multi-Factor Authentication (MFA) for third party organizations. This means necessitating these companies to confirm their identity with more than just their password before accessing sensitive information or high privilege accounts. Another way to mitigate the effects of a trusted relationship attack is through network segmentation, which means isolating different parts of the network from each other. This would make it more difficult for an attacker to move laterally throughout the network once they gain access to the system. An organization could use network segmentation to separate the parts of a network that third party accounts need to access from the rest of the network, preventing these other companies from seeing and accessing sensitive information outside of the scope of their job. It is also important to manage account privileges when working with third party organizations. When doing so, it is important to follow the Principle of Least Privilege, which means that each account should only have the bare-minimum permissions needed in order to accomplish their obligations. Following this principle will prevent attackers from using third party accounts to access information or networks that they shouldn't have access to. It severely limits the damage attackers could do if a trusted relationship attack was to occur.
 
 ## Key Takeaways
+
+* Trusted relationship attacks exploit connections between the target organization and third party companies which they work with
+* Trusted relationship attacks help an attacker gain initial access to the target system
+* Maintaining and monitoring logs and third party behavior is important in order to detect and identify a trusted relationship attack
+* The effects of trusted relationship attacks can be mitigated through requiring MFA, employing network segmentation, and implementing the Principle of Least Privilege.
 
 ## Sources
 
