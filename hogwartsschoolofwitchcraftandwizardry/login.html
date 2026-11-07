@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hogwarts School of Witchcraft and Wizardry information website">
+  <title>Student Login | Hogwarts</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="login.html">
+  <header id="site-header" class="site-header"></header>
+  <main>
+    <h2 class="page-heading">Student Login</h2>
+<p class="intro">The student portal provides access to school notices, course information, and student services.</p>
+<form class="form-card" id="student-login-form">
+  <h3>Student Portal</h3>
+  <label for="student-id">Student ID</label>
+  <input id="student-id" name="student-id" type="text" placeholder="Enter your student ID" autocomplete="username" required>
+  <label for="student-password">Password</label>
+  <input id="student-password" name="password" type="password" placeholder="Enter your password" autocomplete="current-password" required>
+  <button class="button" type="submit">Sign in</button>
+  <p class="form-message" id="login-message" role="status" aria-live="polite"></p>
+  <p class="small-note">This is a visual demonstration. It does not authenticate users or store passwords.</p>
+</form>
+  </main>
+  <footer id="site-footer" class="site-footer"></footer>
+</body>
+</html>
