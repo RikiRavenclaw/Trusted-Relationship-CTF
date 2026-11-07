@@ -37,7 +37,7 @@ if (header) {
 
 const footer = document.querySelector("#site-footer");
 if (footer) {
-  footer.innerHTML = `A fictional Hogwarts fan-made CTF website · For educational use`;
+  footer.innerHTML = `For any questions, please contact us by owl`;
 }
 
 const loginForm = document.querySelector("#student-login-form");
