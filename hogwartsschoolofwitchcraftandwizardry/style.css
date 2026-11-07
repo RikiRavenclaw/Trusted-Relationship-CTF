@@ -22,7 +22,7 @@ body {
 a { color: inherit; }
 .site-header {
   color: var(--parchment);
-  background: linear-gradient(110deg, var(--burgundy-dark), var(--burgundy));
+  background: linear-gradient(110deg, var(--black), var(--base-gray));
   border-bottom: 3px solid var(--gold);
   box-shadow: 0 5px 22px rgba(0,0,0,.35);
 }
@@ -132,7 +132,7 @@ main {
   border: 1px solid #c9b78f;
   box-shadow: 0 7px 18px rgba(0,0,0,.18);
 }
-.card h3 { margin: 0 0 10px; color: var(--burgundy); font-size: 1.35rem; }
+.card h3 { margin: 0 0 10px; color: var(--base-gray); font-size: 1.35rem; }
 .card p, .card li { line-height: 1.65; }
 .card .symbol { color: #9a7438; font-size: 1.7rem; margin-bottom: 8px; }
 .card ul { padding-left: 20px; margin-bottom: 0; }
@@ -143,7 +143,7 @@ main {
   box-shadow: 0 8px 25px rgba(0,0,0,.2);
   line-height: 1.75;
 }
-.content-panel h3 { color: var(--burgundy); }
+.content-panel h3 { color: var(--base-gray); }
 .notice {
   margin-top: 22px;
   padding: 16px 20px;
@@ -155,7 +155,7 @@ main {
   margin-top: 14px;
   padding: 11px 19px;
   color: #fff6e3;
-  background: var(--burgundy);
+  background: var(--base-gray);
   border: 1px solid var(--gold);
   text-decoration: none;
   font: inherit;
@@ -169,7 +169,7 @@ main {
   background: var(--parchment);
   border: 1px solid #c9b78f;
 }
-.form-card label { display: block; margin: 14px 0 6px; color: var(--burgundy); font-weight: bold; }
+.form-card label { display: block; margin: 14px 0 6px; color: var(--base-gray); font-weight: bold; }
 .form-card input {
   width: 100%;
   padding: 12px;
@@ -177,7 +177,7 @@ main {
   background: #fffdf7;
   font: inherit;
 }
-.form-message { min-height: 1.5em; color: var(--burgundy); font-weight: bold; }
+.form-message { min-height: 1.5em; color: var(--base-gray); font-weight: bold; }
 .site-footer {
   padding: 22px 16px;
   color: #d9c9ad;
