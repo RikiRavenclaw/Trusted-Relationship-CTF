@@ -91,21 +91,33 @@ main {
 .hero {
   padding: clamp(30px, 6vw, 68px) 28px;
   text-align: center;
-  color: #fff6e3;
-  background:
-    linear-gradient(rgba(40, 40, 40, .35), rgba(40, 40, 40, .45)),
-    radial-gradient(ellipse at center, #858585, #505050 75%);
+  color: #000000;
+  background: #b0b0b0;
   border: 1px solid rgba(213,173,96,.7);
-  box-shadow: 0 12px 35px rgba(0,0,0,.3);
+  box-shadow: 0 12px 35px rgba(0,0,0,.15);
 }
+
 .hero .eyebrow {
-  color: var(--gold-light);
+  color: #70521f;
   letter-spacing: .22em;
   text-transform: uppercase;
   font-size: .78rem;
 }
-.hero h2 { margin: 12px 0; font-size: clamp(2rem, 5vw, 3.4rem); font-weight: normal; }
-.hero p { max-width: 690px; margin: 0 auto; color: #eadcc4; line-height: 1.7; font-size: 1.08rem; }
+
+.hero h2 {
+  margin: 12px 0;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: normal;
+}
+
+.hero p {
+  max-width: 690px;
+  margin: 0 auto;
+  color: #303030;
+  line-height: 1.7;
+  font-size: 1.08rem;
+}
+
 .page-heading {
   color: #fff0d1;
   text-align: center;
