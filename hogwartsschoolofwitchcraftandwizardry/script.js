@@ -45,6 +45,6 @@ if (loginForm) {
   loginForm.addEventListener("submit", (event) => {
     event.preventDefault();
     const message = document.querySelector("#login-message");
-    message.textContent = "Demo only: student authentication is not connected.";
+    message.textContent = "Incorrect Username or Password";
   });
 }
