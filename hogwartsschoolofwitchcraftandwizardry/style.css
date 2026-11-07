@@ -1,10 +1,9 @@
-
 :root {
-  --base-gray: #505050;
-  --dark-gray: #383838;
-  --medium-gray: #707070;
-  --light-gray: #929292;
-  --black: #171717;
+  --base-gray: #454545;
+  --dark-gray: #353535;
+  --medium-gray: #505050;
+  --light-gray: #686868;
+  --black: #242424;
   --gold: #d5ad60;
   --gold-light: #f0d99e;
   --parchment: #f3ead7;
@@ -12,7 +11,6 @@
   --muted: #6f6258;
   --card: #f3ead7;
 }
-
 /* General page styling */
 * {
   box-sizing: border-box;
@@ -25,7 +23,7 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  background: #858585;
+  background: #686868;
   font-family: Georgia, "Times New Roman", serif;
   min-height: 100vh;
 }
@@ -126,7 +124,7 @@ main {
   padding: clamp(30px, 6vw, 68px) 28px;
   text-align: center;
   color: #ffffff;
-  background: #555555;
+  background: #505050;
   border: 1px solid var(--gold);
   box-shadow: 0 12px 35px rgba(0,0,0,.2);
 }
