@@ -1,5 +1,5 @@
 :root {
-  --base-gray: #303030;
+  --base-gray: #505050;
   --black: #000000;
   --gold: #d5ad60;
   --gold-light: #f0d99e;
@@ -161,7 +161,7 @@ main {
   font: inherit;
   cursor: pointer;
 }
-.button:hover, button.button:hover { background: #303030; }
+.button:hover, button.button:hover { background: #505050; }
 .form-card {
   max-width: 480px;
   margin: auto;
