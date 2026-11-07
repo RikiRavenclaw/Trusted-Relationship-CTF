@@ -14,8 +14,8 @@ body {
   margin: 0;
   color: var(--ink);
   background:
-    linear-gradient(rgba(32, 17, 20, .78), rgba(32, 17, 20, .88)),
-    radial-gradient(circle at top, #80613e, #24151a 65%);
+    linear-gradient(rgba(0, 0, 0, .78), rgba(0, 0, 0, .88)),
+    radial-gradient(circle at top, #80613e, #000000 65%);
   font-family: Georgia, "Times New Roman", serif;
   min-height: 100vh;
 }
@@ -93,8 +93,8 @@ main {
   text-align: center;
   color: #fff6e3;
   background:
-    linear-gradient(rgba(36,12,22,.76), rgba(36,12,22,.83)),
-    radial-gradient(ellipse at center, #866b48, #3b1727 72%);
+    linear-gradient(rgba(0,0,0,.76), rgba(0,0,0,.83)),
+    radial-gradient(ellipse at center, #866b48, #000000 72%);
   border: 1px solid rgba(213,173,96,.7);
   box-shadow: 0 12px 35px rgba(0,0,0,.3);
 }
@@ -161,7 +161,7 @@ main {
   font: inherit;
   cursor: pointer;
 }
-.button:hover, button.button:hover { background: #682039; }
+.button:hover, button.button:hover { background: #303030; }
 .form-card {
   max-width: 480px;
   margin: auto;
