@@ -37,7 +37,7 @@ if (header) {
 
 const footer = document.querySelector("#site-footer");
 if (footer) {
-  footer.innerHTML = `For any questions, please contact us by owl`;
+  footer.innerHTML = `For any questions, please contact via owl to Hogwarts`;
 }
 
 const loginForm = document.querySelector("#student-login-form");
