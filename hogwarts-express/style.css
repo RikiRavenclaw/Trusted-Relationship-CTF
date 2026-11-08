@@ -528,3 +528,45 @@ a { color: inherit; }
   font-weight: bold;
   margin-top: 12px;
 }
+
+.student-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  min-width: 750px;
+}
+
+.student-table th,
+.student-table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid rgba(120, 90, 50, 0.2);
+}
+
+.student-table th {
+  color: var(--gold);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.student-table td {
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.student-table tbody tr:hover {
+  background: rgba(213, 173, 96, 0.12);
+}
+
+.record-disclaimer {
+  display: block;
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
