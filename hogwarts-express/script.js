@@ -65,8 +65,9 @@ document.addEventListener("DOMContentLoaded", () => {
   if (loginForm) {
     loginForm.addEventListener("submit", event => {
       event.preventDefault();
-      // CTF demonstration only: this is not real authentication.
-      window.location.href = "employee-dashboard.html";
+
+      const errorMessage = document.getElementById("login-error");
+      errorMessage.textContent = "Incorrect username or password.";
     });
   }
 });

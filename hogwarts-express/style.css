@@ -522,3 +522,9 @@ a { color: inherit; }
   .dashboard-main { padding: 35px 5%; }
   .prefect-panel { padding: 23px; }
 }
+
+.error-message {
+  color: #a32020;
+  font-weight: bold;
+  margin-top: 12px;
+}
