@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hogwarts Express employee login">
+  <title>Employee Login | Hogwarts Express</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="employee-login">
+  <header id="site-header" class="site-header"></header>
+  <main class="express-main">
+    <section class="express-login-panel">
+      <div>
+        <span class="express-eyebrow">AUTHORIZED PERSONNEL</span>
+        <h1>Railway Employee Portal</h1>
+        <p>Employee access for transportation records, personnel notices, and official railway information.</p>
+        <p>For use by authorized Hogwarts Express personnel only.</p>
+      </div>
+      <form class="express-login-form" id="employee-login-form">
+        <h2>Employee Sign In</h2>
+        <label for="employee-username">Employee Username</label>
+        <input id="employee-username" name="username" type="text" placeholder="Enter your username" autocomplete="username" required>
+        <label for="employee-password">Password</label>
+        <input id="employee-password" name="password" type="password" placeholder="Enter your password" autocomplete="current-password" required>
+        <button type="submit" class="express-button">Sign In</button>
+        <small class="form-note">CTF demonstration portal. This sample form does not authenticate credentials.</small>
+      </form>
+    </section>
+  </main>
+  <footer id="site-footer" class="site-footer"></footer>
+</body>
+</html>

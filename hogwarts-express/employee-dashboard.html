@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hogwarts Express employee dashboard">
+  <title>Employee Dashboard | Hogwarts Express</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="employee-dashboard">
+  <header id="site-header" class="site-header"></header>
+  <main class="dashboard-main">
+    <div class="dashboard-welcome">
+      <span class="section-kicker">RAILWAY EMPLOYEE SYSTEM</span>
+      <h1>Employee Dashboard</h1>
+      <p>Hogwarts Express personnel information and transportation records.</p>
+    </div>
+
+    <div class="dashboard-stats">
+      <article class="dashboard-stat"><span>Registered Employees</span><strong>24</strong></article>
+      <article class="dashboard-stat"><span>Scheduled Passengers</span><strong>187</strong></article>
+      <article class="dashboard-stat"><span>Next Departure</span><strong>1 Sept.</strong></article>
+    </div>
+
+    <section class="dashboard-card">
+      <span>PERSONNEL DIRECTORY</span>
+      <h2>Railway Employees</h2>
+      <div class="employee-row"><div class="employee-initials">HC</div><div><strong>Henry Cattermole</strong><p>Train Conductor</p></div><span class="employee-status">Active</span></div>
+      <div class="employee-row"><div class="employee-initials">MW</div><div><strong>Margaret Whitlock</strong><p>Passenger Services</p></div><span class="employee-status">Active</span></div>
+      <div class="employee-row"><div class="employee-initials">TB</div><div><strong>Thomas Bletchley</strong><p>Railway Operations</p></div><span class="employee-status">Active</span></div>
+    </section>
+
+    <section class="dashboard-card">
+      <span>TRANSPORTATION RECORDS</span>
+      <h2>Upcoming School Departure</h2>
+      <div class="record-grid">
+        <div><small>Departure</small><strong>King's Cross</strong></div>
+        <div><small>Destination</small><strong>Hogsmeade</strong></div>
+        <div><small>Date</small><strong>1 September</strong></div>
+        <div><small>Time</small><strong>11:00 AM</strong></div>
+      </div>
+    </section>
+
+    <section class="dashboard-card">
+      <span>INTERNAL COMMUNICATION</span>
+      <h2>Railway Notices</h2>
+      <div class="notice-entry"><strong>Annual Hogwarts Transportation Agreement</strong><p>The Hogwarts Express maintains an authorized transportation partnership with Hogwarts School of Witchcraft and Wizardry.</p></div>
+      <div class="notice-entry"><strong>Student Information Access</strong><p>Railway personnel may access designated Hogwarts transportation records through the school's external partner integration.</p></div>
+      <div class="notice-entry"><strong>System Maintenance</strong><p>The external partner integration is scheduled for review following the annual school departure.</p></div>
+    </section>
+
+    <!-- CTF CLUE LOCATION:
+         Add a fictional third-party access clue or flag here.
+         This static dashboard is intentionally not protected by authentication.
+    -->
+    <section class="dashboard-card">
+      <span>PARTNER SYSTEM NOTICE</span>
+      <h2>Hogwarts Integration</h2>
+      <div class="ctf-clue">
+        The railway's passenger service uses a separate Hogwarts partner system.
+        Refer to the internal integration documentation for the approved resource path.
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer" class="site-footer"></footer>
+</body>
+</html>
